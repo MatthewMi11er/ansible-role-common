@@ -1,0 +1,10 @@
+---
+# common/meta/main.yml
+
+dependencies:
+  - { role: apt }
+  - { role: ufw }
+  - { role: ssh }
+  - { role: postfix } #set postfix_root_email_destination
+  - { role: logs }
+  - { role: opendkim }

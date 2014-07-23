@@ -2,9 +2,11 @@
 # common/meta/main.yml
 
 dependencies:
-  - { role: apt }
-  - { role: ufw }
-  - { role: ssh }
-  - { role: postfix } #set postfix_root_email_destination
-  - { role: logs }
-  - { role: opendkim }
+  - { role: mi11er.apt }
+  - { role: mi11er.ufw }
+  - { role: mi11er.ssh }
+  - { role: mi11er.postfix } #set postfix_root_email_destination
+  - { role: mi11er.logs }
+  - { role: mi11er.opendkim }
+
+version: 1.0.0

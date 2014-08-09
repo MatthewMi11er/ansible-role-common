@@ -21,5 +21,3 @@ dependencies:
   - { role: MatthewMi11er.postfix } #set postfix_root_email_destination
   - { role: MatthewMi11er.logs }
   - { role: MatthewMi11er.opendkim }
-
-version: 1.0.0

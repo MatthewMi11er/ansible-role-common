@@ -1,12 +1,25 @@
 ---
 # common/meta/main.yml
 
+galaxy_info:
+  author: Matthew Miller
+  description: common setup stuff
+  company:
+  license: license (MIT)
+  min_ansible_version: 1.6
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+  categories:
+    - system
+
 dependencies:
-  - { role: mi11er.apt }
-  - { role: mi11er.ufw }
-  - { role: mi11er.ssh }
-  - { role: mi11er.postfix } #set postfix_root_email_destination
-  - { role: mi11er.logs }
-  - { role: mi11er.opendkim }
+  - { role: matthewmi11er.apt }
+  - { role: matthewmi11er.ufw }
+  - { role: matthewmi11er.ssh }
+  - { role: matthewmi11er.postfix } #set postfix_root_email_destination
+  - { role: matthewmi11er.logs }
+  - { role: matthewmi11er.opendkim }
 
 version: 1.0.0

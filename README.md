@@ -1,4 +1,31 @@
-#ansible-role-common
-Install packages all servers should have and do basic configuration.
-##Requirements
-Dependencies are listed in the `Ansiblefile`.
+# Ansible Role: common
+
+
+common setup stuff
+## Requirements
+
+
+
+
+## Role Variables
+
+
+
+## Dependencies
+
+
+
+## Example Playbook
+
+
+
+```yml
+    - hosts: servers
+      roles:
+         - { role: matthewmi11er.common }
+```
+## License
+
+MIT
+
+## Author Information

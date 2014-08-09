@@ -15,11 +15,9 @@ galaxy_info:
     - system
 
 dependencies:
-  - { role: matthewmi11er.apt }
-  - { role: matthewmi11er.ufw }
-  - { role: matthewmi11er.ssh }
-  - { role: matthewmi11er.postfix } #set postfix_root_email_destination
-  - { role: matthewmi11er.logs }
-  - { role: matthewmi11er.opendkim }
-
-version: 1.0.0
+  - { role: MatthewMi11er.apt }
+  - { role: MatthewMi11er.ufw }
+  - { role: MatthewMi11er.ssh }
+  - { role: MatthewMi11er.postfix } #set postfix_root_email_destination
+  - { role: MatthewMi11er.logs }
+  - { role: MatthewMi11er.opendkim }
